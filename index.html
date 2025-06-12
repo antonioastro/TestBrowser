@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AC_Browser</title>
+  </head>
+  
+  <body>
+    
+    <button id="back" onclick="goback()">Back</button>
+    <button id="refresh" onclick="testrefresh()">Refresh</button>
+    <input type="text" id="url" placeholder="URL" style="width:500px">
+    <button id="go" onclick="sendURL()">Go!</button>
+    <button id="history" onclick="gethistory()">History</button>
+
+    <div id="dev">
+      <div id="print"></div>
+      <div id="previous"></div>
+      <div id="current"></div>
+    </div>
+
+    <script src="renderer.js"></script>
+  </body>
+
+</html>

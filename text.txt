@@ -1,0 +1,21 @@
+  //To go in package.json
+  //build for Linux
+
+  BASH: "npx electron-builder --linux AppImage"
+
+  "build":{
+    "productName":"TestBrowser",
+    "linux": {
+      "target": "AppImage",
+      "category": "Internet",
+  }}
+
+  //build for Windows 
+  
+  BASH: "npx electron-builder --win"
+
+  "build": {
+    "productName": "TestBrowser",
+    "win":{
+      "target": "portable"
+    }}

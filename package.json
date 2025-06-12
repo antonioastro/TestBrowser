@@ -1,0 +1,25 @@
+{
+  "name": "test_browser",
+  "version": "0.1.2",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "dist":"electron-builder"
+  },
+  
+  "devDependencies": {
+    "electron": "^25.9.8",
+    "electron-builder": "^26.0.12"
+  },
+
+  "keywords": [],
+  "author": "AntonioAstro",
+  "license": "ISC",
+  "description": "",
+
+  "build": {
+    "productName": "TestBrowser",
+    "win":{
+      "target": "portable"
+    }
+}}
