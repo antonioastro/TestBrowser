@@ -17,9 +17,10 @@
   "license": "ISC",
   "description": "",
 
-  "build": {
-    "productName": "TestBrowser",
-    "win":{
-      "target": "portable"
-    }
+  "build":{
+    "productName":"TestBrowser",
+    "linux": {
+      "target": "AppImage",
+      "category": "Internet",
+  }}
 }}
